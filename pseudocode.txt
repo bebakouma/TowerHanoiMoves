@@ -1,0 +1,9 @@
+Input n  ← total number of disks
+Input i  ← which disk to measure (1 = smallest … n = largest)
+
+If i < 1 OR i > n
+    Print error and quit
+
+moves ← 2 ^ (n - i)   // power of two
+Output moves
+End
